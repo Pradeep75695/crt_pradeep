@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Reset margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Garamond,Times New Roman;
+        }
+
+        /* Body background color */
+
+
+        /* Remove padding from sections */
+        section {
+            padding: 0;
+        }
+
+        /* Basic styling for sections */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff; /* White background for content areas */
+            border-radius: 8px; /* Rounded corners for containers */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow for containers */
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: red;
+        }
+
+        h2, h3 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>PRADEEP BATTULA</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#internships">Internships</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate web developer with experience in HTML, CSS, and JavaScript. I enjoy creating responsive and user-friendly websites.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Music Playlist Management System</h3>
+                <p>Data Structures and Algorithms (DSA) in Java are used in the development of the Music Playlist Management System.</p>
+            </div>
+            <div class="project">
+                <h3>Simple Bank Management System</h3>
+                <p>Created a Bank Management System with Full Stack Java, focusing on HTML, CSS, and JavaScript for the front end and Spring Boot for the back end REST APIs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="internships" class="section">
+        <div class="container">
+            <h2>Internships</h2>
+            <div class="internship">
+                <h3>DSA - JAVA</h3>
+                <p>Contributed to the design and implementation of Java-based data structures and algorithms, actively participating in the optimization of key functionalities for real-world applications.</p>
+            </div>
+            <div class="internship">
+                <h3>SkillDzire</h3>
+                <p>Created and implemented Java-based online applications, focusing on backend features with SQL databases and frontend improvements with HTML, CSS, and JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
